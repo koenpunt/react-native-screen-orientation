@@ -7,6 +7,6 @@
 #import <React/RCTBridgeModule.h>
 
 @interface Orientation : NSObject <RCTBridgeModule>
-+ (void)setOrientation: (UIInterfaceOrientationMask)orientation;
-+ (UIInterfaceOrientationMask)getOrientation;
++ (void)setSupportedInterfaceOrientations: (UIInterfaceOrientationMask)orientations;
++ (UIInterfaceOrientationMask)supportedInterfaceOrientations;
 @end

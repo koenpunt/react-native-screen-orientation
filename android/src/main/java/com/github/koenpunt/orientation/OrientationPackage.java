@@ -1,4 +1,4 @@
-package com.github.yamill.orientation;
+package com.github.koenpunt.orientation;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
@@ -22,7 +22,7 @@ public class OrientationPackage implements ReactPackage {
         );
     }
 
-    @Override
+    // Deprecated from RN 0.47.0
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
